@@ -1,0 +1,23 @@
+.name-formatter-container {
+  color: grey;
+  height: 90vh;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+
+  .fname {
+    outline: none;
+    background-color: lightgoldenrodyellow;
+    color: grey;
+    height: 60px;
+    border: none;
+    font-size: 15px;
+  }
+
+  .nf-result {
+    font-size: larger;
+  }
+}

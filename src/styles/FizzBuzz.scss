@@ -1,0 +1,38 @@
+.fb-container {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  height: 90vh;
+
+  .fb-count {
+    padding-top: 3%;
+    font-size: 150px;
+  }
+
+  .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      margin: 5%;
+      color: steelblue;
+      height: 100px;
+      width: 300px;
+      border-radius: 50px;
+      font-size: xx-large;
+
+      &:hover {
+        transition: ease-in-out(1.5s);
+        color: lighten($color: #f69d3c, $amount: 25%);
+        background-color: darken($color: #ccc, $amount: 10%);
+        -webkit-box-shadow: 0px 0px 15px 5px #fffef2;
+        box-shadow: 0px 0px 15px 5px #fffef2;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  height: auto;
+  background-color: lightgray;
+
+  .pokemon-name-wrapper {
+    padding-top: 10vh;
+    .pokemon-title {
+      color: purple;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-decoration: underline;
+      text-transform: uppercase;
+    }
+
+    .pokemon-name {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: green;
+      padding: 5%;
+      font-size: x-large;
+      text-align: left;
+
+      &:before {
+        content: "\A";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #eee;
+        margin-right: 10px;
+        display: inline-block;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.revstr-wrapper {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: midnightblue;
+  color: whitesmoke;
+
+  .rev-title {
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 5%;
+    text-transform: uppercase;
+    text-decoration: #ff8fb5 wavy underline overline;
+  }
+
+  .rev-input {
+    font-size: large;
+    padding: 1%;
+    border-radius: 20px;
+    background-color: lighten($color: #000, $amount: 93%);
+    color: #ff8fb5;
+  }
+
+  .revstr-output {
+    margin-top: 5%;
+    font-size: 75px;
+    text-transform: uppercase;
+    text-shadow: #ff8fb5;
+  }
+}

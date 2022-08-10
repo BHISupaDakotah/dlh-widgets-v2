@@ -1,0 +1,47 @@
+.eightball-container {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  background-color: lightsteelblue;
+
+  .eightball-title {
+    color: white;
+  }
+
+  .eightball-form {
+    padding: 5%;
+  }
+
+  .eightball-input {
+    background-color: lightsteelblue;
+    border: none;
+    border-bottom: 2px black solid;
+    color: white;
+    outline: none;
+    font-size: large;
+
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  .answer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+    .answer {
+      height: 100px;
+      width: 200px;
+      color: white;
+      border-radius: 45%;
+      background-color: cadetblue;
+      padding-top: 4%;
+      -webkit-box-shadow: 0px 0px 15px 5px #fffef2;
+      box-shadow: 0px 0px 15px 5px #fffef2;
+    }
+  }
+}

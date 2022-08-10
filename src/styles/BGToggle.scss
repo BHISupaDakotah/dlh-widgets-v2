@@ -1,0 +1,24 @@
+.bg-toggle-wrapper {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+
+  .toggle-btn {
+    height: 100px;
+    width: 225px;
+    border-radius: 15px;
+    color: whitesmoke;
+    background: #000;
+    border: none;
+    font-size: x-large;
+
+    &:hover {
+      color: purple;
+      cursor: grab;
+      -webkit-box-shadow: 0px 5px 15px 5px #9c9c9c;
+      box-shadow: 0px 5px 15px 5px #9c9c9c;
+    }
+  }
+}

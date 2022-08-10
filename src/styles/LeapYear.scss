@@ -1,0 +1,49 @@
+@mixin center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin no-outline {
+  outline: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.lp-wrapper {
+  color: grey;
+  height: 90vh;
+  background-color: lighten($color: #000000, $amount: 85%);
+  @include center-center();
+  padding-top: 10vh;
+
+  .lp-title {
+    text-shadow: 2px 2px #000;
+    font-size: xx-large;
+  }
+
+  .leap-year {
+    background-color: lighten($color: #000000, $amount: 85%);
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    text-align: center;
+    @include no-outline();
+    -webkit-appearance: none;
+    font-size: 20px;
+    cursor: context-menu;
+
+    &:hover {
+      background-color: coral;
+    }
+  }
+
+  .is-leap-year {
+    color: black;
+  }
+}
